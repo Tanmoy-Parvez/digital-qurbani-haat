@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/cow_logo.png" type="image/x-icon">
+        <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/6814bb579b.js" crossorigin="anonymous"></script>
         <!-- Bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <!-- custom stylesheet -->
@@ -15,11 +17,11 @@
     <header>
         <!-- menubar starts -->
         <div class="container menu-bar">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top  px-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand d-flex" href="#">
                         <img src="images/cow_logo.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
-                       <g4>Digital Qurbani Haat</g4>
+                       <h3>Digital Qurbani Haat</h3>
                       </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -37,6 +39,9 @@
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#buffalos">Buffalo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#register">Registration</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#subscribe">Contact Us</a>
@@ -130,6 +135,7 @@
                   </div>
                 </div>
         </div>
+
         <!-- cows section starts -->
         <section class="container mb-5" id="cows">
             <h3>Cows</h1>
@@ -231,7 +237,7 @@
                 <img src="images/buffalos/buffalo-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Brown goat No.114</h5>
-                    <h5>$1100</h5>
+                    <h5>$1600</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
@@ -244,7 +250,7 @@
                 <img src="images/buffalos/buffalo-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Light brown goat No.115</h5>
-                    <h5>$1150</h5>
+                    <h5>$1850</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
@@ -257,7 +263,7 @@
                 <img src="images/buffalos/buffalo-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Black goat No.116</h5>
-                    <h5>$1200</h5>
+                    <h5>$1400</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
@@ -268,19 +274,161 @@
           </div>
     </section>
 
+    <!-- registration form -->
+    <section class="container my-5 p-3 border rounded-3" id="register">
+      <h1 class="mb-5 text-center">Register</h1>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="fullname" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="fullname" required>
+        </div>
+        <div class="col-md-6">
+          <label for="fatherName" class="form-label">Father's Name</label>
+          <input type="text" class="form-control" id="fatherName" required>
+        </div>
+        <div class="col-12">
+          <label for="mobile" class="form-label">Mobile</label>
+          <input type="tel" class="form-control" id="mobile" required>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">Categories</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Cow</option>
+            <option>Goat</option>
+            <option>Buffalo</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Payment Method</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Hand Cash</option>
+            <option>Bank</option>
+            <option>Mobile Banking</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="amount" class="form-label">Amount</label>
+          <input type="text" class="form-control" id="amout">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-color">Register</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- sponsors starts -->
+    <section class="container partner-area text-center my-4 p-4">    
+      <h2 class="section-title">OUR PARTNERS</h2>
+      <div class="row partners d-flex justify-content-evenly">
+          <div class="partner col-lg-4">
+              <a href="https://www.coca-cola.com/" target="_blank">
+                  <img src="images/partners/CocaCola.svg" alt="cocacola image">
+              </a>
+          </div>
+
+          <div class="partner col-lg-4">
+              <a href="https://www.adidas.co.uk/football" target="_blank">
+                  <img src="images/partners/adidas.png" alt="adidas image">
+              </a>
+          </div>
+
+          <div class="partner col-lg-4">
+              <a href="https://bd.visa.com/" target="_blank">
+                  <img src="images/partners/Visa.png" alt="visa image">
+              </a>
+          </div>
+      </div>
+  </section>
+
+  <!-- about us -->
+  <section class="container p-3 text-center bg-color rounded-3 my-3">
+    <h2>About Us</h2>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        About us
+      </button>
+
+      <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        Comments
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">About Us</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aut voluptatibus temporibus doloribus rem iste, eaque totam reprehenderit maiores ad ab adipisci harum cum similique odio nesciunt nisi doloremque consequatur nostrum magni hic labore! Accusantium voluptas doloremque tenetur deserunt molestiae! Accusantium quam deleniti voluptatibus id eligendi beatae fugiat officia! Placeat.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">What Customers says</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aut voluptatibus temporibus doloribus rem iste, eaque totam reprehenderit maiores ad ab 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
     <!-- subscribe section starts -->
-    <section class="container bg-color d-flex align-items-center justify-content-center p-4 rounded-3" id="subscribe">
-      <div>
+  <section class="container bg-color d-flex align-items-center justify-content-center p-4     rounded-3" id="subscribe">
+      <div class="text-center">
         <h1>LET'S STAY IN TOUCH</h1>
         <p>Get updates on sales specials and more</p>
-        <input type="email" placeholder="Enter your email" class="form-control">
-        <br>
-        <button class="btn btn-color">Buy Now</button>
+        <div class="d-flex">
+          <input type="email" placeholder="Enter your email" class="form-control">
+          <button class="btn-color">Submit</button>  
+        </div>
       </div>
-    </section>
-    </main>
+  </section>
+
+      <!-- social medias -->
+      <section class="container my-1 py-3 bg-color rounded text-center social-icons my-3 ">
+        <h4>Social Medias</h4>
+        <a href=""><i class="fab fa-facebook-square"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-twitter-square"></i></a>
+        <a href=""><i class="fab fa-whatsapp-square"></i></a>
+      </section>
+  </main>
+
     <!-- footer starts -->
-    <footer class="container mt-4">
+    <footer class="container">
       <p class="text-center">&copy2021. Digital Qurbani Haat. All rights reserved. Pabna, Bangladesh.</p>
     </footer>
 
