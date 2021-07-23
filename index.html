@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/cow_logo.png" type="image/x-icon">
+        <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!-- custom stylesheet -->
+      <link rel="stylesheet" href="style.css">
+    <title>Digital Qurbani Haat</title>
+</head>
+<body>
+    <header>
+        <!-- menubar starts -->
+        <div class="container menu-bar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top  px-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex" href="#">
+                        <img src="images/cow_logo.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
+                       <g4>Digital Qurbani Haat</g4>
+                      </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#cows">Cows</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#goats">Goats</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#buffalos">Buffalo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <!-- banner section starts -->
+        <div class="container my-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner bg-color">
+                    <div class="carousel-item active">
+                       <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+                            <h1>Big Healthy Cow</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis.</p>
+                            <h2>$1800</h2>
+                            <button class="btn btn-color">Buy Now</button>
+                        </div>
+                        <div class="col-md-5">
+                             <img src="images/banners/cow banner.png" class="d-block w-100" alt="...">
+                        </div>
+                       </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-md-7">
+                                <h1>Big Healthy Goat</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis.</p>
+                                <h2>$1100</h2>
+                                <button class="btn btn-color">Buy Now</button>
+                            </div>
+                            <div class="col-md-5">
+                                 <img src="images/banners/goat banner.png" class="d-block w-100 h-100" alt="...">
+                            </div>
+                           </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-md-7">
+                                <h1>Big Healthy Buffalo</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis.</p>
+                                <h2>$1500</h2>
+                                <button class="btn btn-color">Buy Now</button>
+                            </div>
+                            <div class="col-md-5">
+                                 <img src="images/banners/buffalo banner.png" class="d-block w-100" alt="...">
+                            </div>
+                           </div>
+                      </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </header>
+    <main>
+        <!-- categories starts -->
+        <div class="container mb-5">
+                <div class="row gx-5">
+                  <div class="col-lg-4">
+                    <div class="px-4 py-2 bg-warning rounded-3 d-flex align-items-center justify-content-between">
+                        <h1 class="text-white">Cows</h1>
+                        <img src="images/categories/ox.png" alt="" width="120px">
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="px-4 py-2 bg-danger rounded-3 d-flex align-items-center justify-content-between">
+                        <h1 class="text-white">Goats</h1>
+                        <img src="images/categories/goat.png" alt="" width="120px">
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="px-4 py-2 bg-primary rounded-3 d-flex align-items-center justify-content-between">
+                        <h1 class="text-white">Buffalo</h1>
+                        <img src="images/categories/buffalo.png" alt="" width="120px">
+                    </div>
+                  </div>
+                </div>
+        </div>
+        <!-- cows section starts -->
+        <section class="container mb-5" id="cows">
+            <h3>Cows</h1>
+            <div class="row row-cols-1 row-cols-lg-3 g-5">
+                <div class="col">
+                  <div class="card h-100 border-0 rounded-3 shadow-lg">
+                    <img src="images/cows/cow-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Brown Ox No.111</h5>
+                        <h5>$1500</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="m-3">
+                        <button class="btn btn-color">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0 rounded-3 shadow-lg">
+                    <img src="images/cows/cow-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Black & Brown Ox No.112</h5>
+                        <h5>$1600</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="m-3">
+                        <button class="btn btn-color">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0 rounded-3 shadow-lg">
+                    <img src="images/cows/cow-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dark Brown Ox No.113</h5>
+                        <h5>$1800</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="m-3">
+                        <button class="btn btn-color">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- goats section starts -->
+        <section class="container mb-5" id="goats">
+          <h3>Goats</h1>
+          <div class="row row-cols-1 row-cols-lg-3 g-5">
+              <div class="col">
+                <div class="card h-100 border-0 rounded-3 shadow-lg">
+                  <img src="images/goats/goat-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Brown goat No.114</h5>
+                      <h5>$1100</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="m-3">
+                      <button class="btn btn-color">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0 rounded-3 shadow-lg">
+                  <img src="images/goats/goat-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Light brown goat No.115</h5>
+                      <h5>$1150</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="m-3">
+                      <button class="btn btn-color">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0 rounded-3 shadow-lg">
+                  <img src="images/goats/goat-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Black goat No.116</h5>
+                      <h5>$1200</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="m-3">
+                      <button class="btn btn-color">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+
+      <!-- buffalo section starts -->
+      <section class="container mb-5" id="buffalos">
+        <h3>Buffalos</h1>
+        <div class="row row-cols-1 row-cols-lg-3 g-5">
+            <div class="col">
+              <div class="card h-100 border-0 rounded-3 shadow-lg">
+                <img src="images/buffalos/buffalo-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Brown goat No.114</h5>
+                    <h5>$1100</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="m-3">
+                    <button class="btn btn-color">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 rounded-3 shadow-lg">
+                <img src="images/buffalos/buffalo-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Light brown goat No.115</h5>
+                    <h5>$1150</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="m-3">
+                    <button class="btn btn-color">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 rounded-3 shadow-lg">
+                <img src="images/buffalos/buffalo-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Black goat No.116</h5>
+                    <h5>$1200</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="m-3">
+                    <button class="btn btn-color">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- subscribe section starts -->
+    <section class="container bg-color d-flex align-items-center justify-content-center p-4 rounded-3" id="subscribe">
+      <div>
+        <h1>LET'S STAY IN TOUCH</h1>
+        <p>Get updates on sales specials and more</p>
+        <input type="email" placeholder="Enter your email" class="form-control">
+        <br>
+        <button class="btn btn-color">Buy Now</button>
+      </div>
+    </section>
+    </main>
+    <!-- footer starts -->
+    <footer class="container mt-4">
+      <p class="text-center">&copy2021. Digital Qurbani Haat. All rights reserved. Pabna, Bangladesh.</p>
+    </footer>
+
+            <!-- script cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
